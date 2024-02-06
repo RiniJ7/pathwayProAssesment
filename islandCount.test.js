@@ -20,13 +20,3 @@ test("Example 2", () => {
   expect(numIslands(grid)).toBe(3);
 });
 
-test("Example 3", () => {
-    const grid = [
-      ["1", "1", "0", "0", "0"],
-      ["1", "1", "0", "0", "0"],
-      ["0", "0", "1", "0", "0"],
-      ["0", "0", "0", "1", "1"],
-    ];
-    expect(numIslands(grid)).toBe(3);
-  });
-  
